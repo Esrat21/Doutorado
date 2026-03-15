@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Dados sensíveis (chaves de API)
+*_api_key.txt
+*.env
+config.ini
+
+# Arquivos temporários
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Arquivos gerados (serão criados pelo notebook)
+prisma/prisma_diagram.png
+
+# Dados brutos (opcional - descomente se não quiser versionar)
+# dataset/*_raw.csv
+
