@@ -1,0 +1,82 @@
+[
+  {
+    "id": "P01",
+    "titulo": "Calcular intervalo entre notas",
+    "nivel": "basico",
+    "descricao": "Crie uma função que receba duas notas musicais e retorne a distância ascendente em semitons entre elas. Considere a escala cromática: C, C#, D, D#, E, F, F#, G, G#, A, A#, B. O cálculo deve ser circular, ou seja, de B para C o intervalo é 1.",
+    "assinatura": "def calcular_intervalo(nota1: str, nota2: str) -> int:",
+    "arquivo_teste": "test_p01.py"
+  },
+  {
+    "id": "P02",
+    "titulo": "Validar escala maior",
+    "nivel": "basico",
+    "descricao": "Crie uma função que receba uma lista de oito notas musicais e retorne True se ela representa uma escala maior válida. A escala maior deve seguir o padrão de intervalos em semitons: 2, 2, 1, 2, 2, 2, 1. Considere a escala cromática: C, C#, D, D#, E, F, F#, G, G#, A, A#, B.",
+    "assinatura": "def validar_escala_maior(notas: list[str]) -> bool:",
+    "arquivo_teste": "test_p02.py"
+  },
+  {
+    "id": "P03",
+    "titulo": "Converter cifra para semitom",
+    "nivel": "basico",
+    "descricao": "Crie uma função que receba uma cifra musical e retorne seu valor numérico em semitons, considerando C como 0, C# como 1, D como 2, D# como 3, E como 4, F como 5, F# como 6, G como 7, G# como 8, A como 9, A# como 10 e B como 11.",
+    "assinatura": "def cifra_para_semitom(nota: str) -> int:",
+    "arquivo_teste": "test_p03.py"
+  },
+  {
+    "id": "P04",
+    "titulo": "Classificar tríade",
+    "nivel": "intermediario",
+    "descricao": "Crie uma função que receba uma lista com três notas musicais e retorne o tipo da tríade formada. A função deve identificar os seguintes tipos: maior, menor, diminuta e aumentada. Considere apenas a relação intervalar entre a primeira nota e as demais.",
+    "assinatura": "def classificar_triade(notas: list[str]) -> str:",
+    "arquivo_teste": "test_p04.py"
+  },
+  {
+    "id": "P05",
+    "titulo": "Gerar campo harmônico maior",
+    "nivel": "intermediario",
+    "descricao": "Crie uma função que receba uma tonalidade maior e retorne os sete acordes do campo harmônico maior. Use o padrão: I maior, ii menor, iii menor, IV maior, V maior, vi menor, vii diminuto. A resposta deve ser uma lista de strings com as cifras dos acordes. Use apenas sustenidos, não bemóis.",
+    "assinatura": "def gerar_campo_harmonico_maior(tonalidade: str) -> list[str]:",
+    "arquivo_teste": "test_p05.py"
+  },
+  {
+    "id": "P06",
+    "titulo": "Detectar inversão de acorde",
+    "nivel": "intermediario",
+    "descricao": "Crie uma função que receba uma lista com três notas de um acorde e retorne a inversão do acorde. Se a nota fundamental estiver no baixo, retorne 'estado fundamental'. Se a terça estiver no baixo, retorne 'primeira inversao'. Se a quinta estiver no baixo, retorne 'segunda inversao'. Considere tríades maiores e menores.",
+    "assinatura": "def detectar_inversao(notas: list[str]) -> str:",
+    "arquivo_teste": "test_p06.py"
+  },
+  {
+    "id": "P07",
+    "titulo": "Validar progressão harmônica",
+    "nivel": "intermediario",
+    "descricao": "Crie uma função que receba uma lista de graus harmônicos representados por algarismos romanos e retorne True se a progressão for considerada válida. Para este problema, considere válidas as progressões que terminam em I e que possuem pelo menos um dos graus IV ou V antes da resolução final.",
+    "assinatura": "def validar_progressao(graus: list[str]) -> bool:",
+    "arquivo_teste": "test_p07.py"
+  },
+  {
+    "id": "P08",
+    "titulo": "Classificar tétrade",
+    "nivel": "avancado",
+    "descricao": "Crie uma função que receba uma lista com quatro notas musicais e retorne o tipo da tétrade formada. A função deve identificar os seguintes tipos: maior7, dominante7, menor7 e meio_diminuto. Considere a relação intervalar entre a primeira nota e as demais.",
+    "assinatura": "def classificar_tetrade(notas: list[str]) -> str:",
+    "arquivo_teste": "test_p08.py"
+  },
+  {
+    "id": "P09",
+    "titulo": "Verificar condução de vozes",
+    "nivel": "avancado",
+    "descricao": "Crie uma função que receba dois acordes, cada um representado por uma lista de quatro valores inteiros correspondentes às alturas das vozes. A função deve retornar True se nenhuma voz se mover mais de 5 semitons entre os acordes. Caso alguma voz se mova mais de 5 semitons, retorne False.",
+    "assinatura": "def verificar_conducao_vozes(acorde1: list[int], acorde2: list[int]) -> bool:",
+    "arquivo_teste": "test_p09.py"
+  },
+  {
+    "id": "P10",
+    "titulo": "Detectar modulação tonal",
+    "nivel": "avancado",
+    "descricao": "Crie uma função que receba uma lista de tonalidades identificadas ao longo de uma música e retorne True se houver modulação. Considere que há modulação quando a lista contém pelo menos duas tonalidades diferentes em sequência. Caso todas as tonalidades sejam iguais, retorne False.",
+    "assinatura": "def detectar_modulacao(tonalidades: list[str]) -> bool:",
+    "arquivo_teste": "test_p10.py"
+  }
+]

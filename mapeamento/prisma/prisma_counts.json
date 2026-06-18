@@ -1,8 +1,18 @@
 {
-  "identified": 598,
-  "after_deduplication": 595,
-  "screened": 595,
-  "excluded": 168,
-  "included_screening": 427,
-  "included_final": 427
+    "records_scopus": 998,
+    "records_google_scholar": 0,
+    "records_semantic_scholar": 0,
+    "records_ieee": 1710,
+    "records_openalex": 437,
+    "duplicates_removed": 143,
+    "records_screened_title_abstract": 3002,
+    "studies_included_after_screening": 653,
+    "records_excluded_title_abstract": 2349,
+    "reports_sought_for_retrieval": 653,
+    "reports_assessed_for_eligibility": 653,
+    "studies_included_final": 0,
+    "reports_excluded_full_text": 3,
+    "records_total_identified": 3145,
+    "records_after_duplicates_removed": 3002,
+    "reports_not_retrieved": 0
 }
