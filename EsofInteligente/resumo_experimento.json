@@ -1,0 +1,54 @@
+{
+  "modelos_avaliados": [
+    "qwen3.6",
+    "gemma4"
+  ],
+  "estrategias_avaliadas": [
+    "zero-shot",
+    "few-shot"
+  ],
+  "total_geracoes": 40,
+  "correcao_media_geral": 64.63,
+  "correcao_por_modelo": {
+    "gemma4": 64.98,
+    "qwen3.6": 64.29
+  },
+  "correcao_por_estrategia": {
+    "few-shot": 63.98,
+    "zero-shot": 65.29
+  },
+  "correcao_por_nivel": {
+    "avancado": 73.81,
+    "basico": 100.0,
+    "intermediario": 31.22
+  },
+  "taxa_erro_por_modelo": {
+    "gemma4": 40.0,
+    "qwen3.6": 40.0
+  },
+  "distribuicao_categoria_erro_por_modelo": {
+    "qwen3.6": {
+      "sucesso": 12,
+      "sintatico": 6,
+      "lexico_semantico": 1,
+      "logico": 1
+    },
+    "gemma4": {
+      "sucesso": 12,
+      "logico": 5,
+      "sintatico": 3
+    }
+  },
+  "excecoes_mais_comuns_por_modelo": {
+    "qwen3.6": {
+      "IndentationError": 5,
+      "ImportError": 1,
+      "AssertionError": 1,
+      "SyntaxError": 1
+    },
+    "gemma4": {
+      "AssertionError": 5,
+      "SyntaxError": 3
+    }
+  }
+}
