@@ -9,3 +9,4 @@
 /Mineracao/venv
 /TrabalhoLLMs/venv
 /DeepLearningLLMs/TrabalhoFinal/venv
+*.pt

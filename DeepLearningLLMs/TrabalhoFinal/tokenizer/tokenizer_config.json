@@ -1,0 +1,31 @@
+{
+  "tokenizer_type": "BPE",
+  "pre_tokenizer": "ByteLevel",
+  "normalizer": "NFKC",
+  "vocab_size_requested": 8000,
+  "vocab_size_actual": 1730,
+  "min_frequency": 2,
+  "training_file": "teoria_musical_treino_200k.txt",
+  "validation_file": "teoria_musical_validacao_20k.txt",
+  "test_file": "teoria_musical_teste_20k.txt",
+  "special_tokens": [
+    "<pad>",
+    "<bos>",
+    "<eos>",
+    "<unk>",
+    "<registro>",
+    "</registro>",
+    "<conceito>",
+    "</conceito>",
+    "<conteudo>",
+    "</conteudo>",
+    "<pergunta>",
+    "</pergunta>",
+    "<resposta>",
+    "</resposta>",
+    "<exercicio>",
+    "</exercicio>",
+    "<analise>",
+    "</analise>"
+  ]
+}
